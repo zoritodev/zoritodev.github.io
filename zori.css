@@ -449,6 +449,7 @@ main {
 
 .card .content h2 {
   color: var(--main);
+  color: var(--lighter);
   /* font-family: var(--header-font); */
   font-size: 40px;
 }
