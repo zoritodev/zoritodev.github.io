@@ -189,9 +189,14 @@ nav {
 
 .hero-text {
   margin-top: 40px;
+  line-height: 28px;
 }
 
-.hero-text p {
+@media (max-width: 1000px) {
+  .hero-text p {
+    width: 80vw;
+    height: 50px;
+  }
 }
 
 .hero a {
