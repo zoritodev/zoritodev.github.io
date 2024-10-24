@@ -340,6 +340,7 @@ main {
 @media (max-width: 1000px) {
   .projects-header {
     padding-top: 100px;
+    padding-bottom: 30px;
   }
 
   .projects article {
