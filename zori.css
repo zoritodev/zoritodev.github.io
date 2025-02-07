@@ -242,7 +242,15 @@ main {
   padding-top: 300px;
 }
 
-@media (max-width: 1500px) {
+.about-me-text {
+  flex: 1 1 66%;
+}
+
+.about-me img {
+  flex: 1 1 30%;
+}
+
+/* @media (max-width: 1500px) {
   .about-me {
     flex-direction: column;
     align-items: center;
@@ -264,7 +272,13 @@ main {
   }
 
   .about-me img {
-    width: 50vw;
+    width: 30vw;
+  }
+} */
+
+@media (max-width: 1500px) {
+  .about-me img {
+    width: 30vw;
   }
 }
 
@@ -383,8 +397,8 @@ main {
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   color: white;
   font-weight: 800;
