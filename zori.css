@@ -432,6 +432,14 @@ main {
   transform: translateY(200px);
 }
 
+@media (max-width: 1000px) {
+  .card .img-overlay p {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
 .card .img-overlay:hover p {
   transform: translateY(0);
 }
@@ -460,14 +468,17 @@ main {
   transition: transform 0.4s ease-in-out;
   transform: rotate(0deg);
 }
+/* 
+@media (max-width: 1000px) {
+  .icons img {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+} */
 
 .icons img:hover {
   transform: rotate(360deg);
-}
-
-.icons img {
-  height: 40px;
-  width: 40px;
 }
 
 .footer {
